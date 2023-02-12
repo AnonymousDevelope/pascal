@@ -1,0 +1,34 @@
+uses crt,graphabc;
+var x:integer;b:char;
+begin randomize;     floodfill(1,1,clmoneygreen);
+SETFONTSIZE(20);
+setfontname('Monotype Corsiva');
+SETFONTCOLOR(random(256));
+textout(225,1,'RANGLI  SVETAFOR');
+while b<>'S' do begin
+begin  maximizewindow;
+setbrushcolor(cldarkgray);
+rectangle(370,400,320,520);
+setpencolor(clbrown);
+setbrushcolor(cldarkgray);
+rectangle(400,400,295,100);
+end;
+delay(1200);
+setbrushcolor(cllime);
+circle(349,145,35);
+delay(1000);
+setbrushcolor(cldarkgray);
+circle(349,145,35);
+delay(1200);
+setbrushcolor(clyellow);
+circle(349,230,35);
+delay(1000);
+setbrushcolor(cldarkgray);
+circle(349,230,35);
+delay(1200);
+setbrushcolor(clred);
+circle(349,315,35);
+delay(1000);
+continue;
+end;
+end.
